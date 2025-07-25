@@ -58,7 +58,7 @@ To investigate our hypothesis, we implemented a multi-step analysis pipeline:
     * **Theta (4-12 Hz)**
     * **Alpha (8-14 Hz)**
     * **Beta (15-30 Hz)**
-    * **Gamma (30-60 Hz)**
+    * **Gamma (30-45 Hz)**
 4.  **Statistical Testing:** To identify significant changes in connectivity, we calculated the change in WPLI ($\Delta$WPLI = Post-Feedback WPLI - Pre-Feedback WPLI). The statistical significance of this change was assessed using non-parametric permutation testing.
 5.  **Multiple Comparisons Correction:** To control for the false discovery rate across the numerous pairwise comparisons, we applied the Benjamini-Hochberg FDR correction.
 
@@ -79,7 +79,7 @@ The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in
 #### Beta Band (15-30 Hz)
 ![Significant connectivity changes in the Beta band](results/corrected_fig_beta.png)
 
-#### Gamma Band (30-60 Hz)
+#### Gamma Band (30-45 Hz)
 ![Significant connectivity changes in the Gamma band](results/corrected_fig_gamma.png)
 
 The detailed statistical results, including p-values, q-values, and observed $\Delta$WPLI for all pairs and bands, are available in `correct_trials_results.csv` and `incorrect_trials_result.csv`.
