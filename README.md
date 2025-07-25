@@ -82,7 +82,7 @@ The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in
 #### Gamma Band (30-45 Hz)
 ![Significant connectivity changes in the Gamma band](results/corrected_fig_gamma.png)
 
-The detailed statistical results, including p-values, q-values, and observed $\Delta$WPLI for all pairs and bands, are available in `results/correct_trials_results.xslx` and `results/incorrect_trials_result.xslx`.
+The detailed statistical results, including p-values, q-values, and observed $$\Delta$$WPLI for all pairs and bands, are available in `results/correct_trials_results.xslx` and `results/incorrect_trials_result.xslx`.
 
 ---
 
