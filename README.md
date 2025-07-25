@@ -74,13 +74,13 @@ The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in
 ![Significant connectivity changes in the Theta band](results/corrected_fig_theta.png)
 
 #### Alpha Band (8-14 Hz)
-![Significant connectivity changes in the Alpha band](corrected_fig_alpha.png)
+![Significant connectivity changes in the Alpha band](results/corrected_fig_alpha.png)
 
 #### Beta Band (15-30 Hz)
-![Significant connectivity changes in the Beta band](corrected_fig_beta.png)
+![Significant connectivity changes in the Beta band](results/corrected_fig_beta.png)
 
 #### Gamma Band (30-60 Hz)
-![Significant connectivity changes in the Gamma band](corrected_fig_gamma.png)
+![Significant connectivity changes in the Gamma band](results/corrected_fig_gamma.png)
 
 The detailed statistical results, including p-values, q-values, and observed $\Delta$WPLI for all pairs and bands, are available in `correct_trials_results.csv` and `incorrect_trials_result.csv`.
 
