@@ -68,7 +68,7 @@ To investigate our hypothesis, we implemented a multi-step analysis pipeline:
 
 Our analysis reveals frequency-specific modulations of functional connectivity following feedback, with distinct patterns for correct and incorrect trials.
 
-The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in the figures below. The matrices show the $\Delta$WPLI, where positive values (red) indicate increased connectivity post-feedback and negative values (blue) indicate decreased connectivity.
+The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in the figures below. The matrices show the WPLI, where positive values (red) indicate increased connectivity post-feedback and negative values (blue) indicate decreased connectivity.
 
 #### Theta Band (4-12 Hz)
 ![Significant connectivity changes in the Theta band](results/corrected_fig_theta.png)
@@ -82,7 +82,7 @@ The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in
 #### Gamma Band (30-45 Hz)
 ![Significant connectivity changes in the Gamma band](results/corrected_fig_gamma.png)
 
-The detailed statistical results, including p-values, q-values, and observed $$\Delta$$WPLI for all pairs and bands, are available in `results/correct_trials_results.xslx` and `results/incorrect_trials_result.xslx`.
+The detailed statistical results, including p-values, q-values, and observed WPLI for all pairs and bands, are available in `results/correct_trials_results.xslx` and `results/incorrect_trials_result.xslx`.
 
 ---
 
