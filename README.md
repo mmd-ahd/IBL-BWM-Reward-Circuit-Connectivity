@@ -49,8 +49,8 @@ This project is built upon the publicly released data from the IBL. The dataset 
 
 To investigate our hypothesis, we implemented a multi-step analysis pipeline:
 
-1.  **Data Fetching and Preprocessing:** We used the ONE (Open Neurophysiology Environment) API to query and download the relevant LFP (Local Field Potential) data from the IBL database for the specified regions of interest.
-2.  **Trial Alignment:** LFP data was aligned to the feedback delivery time for both correct and incorrect trials.
+1.  **Data Fetching and Preprocessing:** We used the ONE (Open Neurophysiology Environment) API to query and download the relevant PSTH data from the IBL database for the specified regions of interest.
+2.  **Trial Alignment:** PSTH data was aligned to the feedback delivery time for both correct and incorrect trials.
 3.  **Functional Connectivity Analysis:** We computed the Weighted Phase Lag Index (WPLI) between all pairs of ROIs for two distinct time windows:
     * **Pre-Feedback:** A window of 500ms immediately preceding feedback.
     * **Post-Feedback:** A window of 500ms immediately following feedback.
@@ -82,7 +82,7 @@ The significant connectivity changes (FDR-corrected, q < 0.05) are visualized in
 #### Gamma Band (30-45 Hz)
 ![Significant connectivity changes in the Gamma band](results/corrected_fig_gamma.png)
 
-The detailed statistical results, including p-values, q-values, and observed $\Delta$WPLI for all pairs and bands, are available in `correct_trials_results.csv` and `incorrect_trials_result.csv`.
+The detailed statistical results, including p-values, q-values, and observed $\Delta$WPLI for all pairs and bands, are available in `results/correct_trials_results.xslx` and `results/incorrect_trials_result.xslx`.
 
 ---
 
@@ -90,8 +90,8 @@ The detailed statistical results, including p-values, q-values, and observed $\D
 
 * `IBL_BWM_Reward_Circuit_Connectivity.ipynb`: The main Jupyter Notebook containing the end-to-end analysis, from data fetching to final visualization.
 * `/results/`: Directory containing the output figures and CSV files with detailed statistical results.
-    * `correct_trials_results.csv`: Table of statistical results for correct trials.
-    * `incorrect_trials_result.csv`: Table of statistical results for incorrect trials.
+    * `correct_trials_results.xslx`: Table of statistical results for correct trials.
+    * `incorrect_trials_result.xslx`: Table of statistical results for incorrect trials.
     * `corrected_fig_*.png`: Figures showing the significant connectivity changes for each frequency band.
 * `README.md`: This file.
 
